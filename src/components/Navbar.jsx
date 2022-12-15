@@ -116,14 +116,14 @@ const Navbar = () => {
           className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <Link className="nav-link" to="/login" exact>
+              <Link className="nav-link" to="/login" >
                 <i
                   className="fas fa-tachometer-alt">
                 </i>Login
               </Link>
             </li>
             <li className="nav-item ">
-              <Link className="nav-link" to="/signup" exact>
+              <Link className="nav-link" to="/signup" >
                 <i
                   className="fas fa-tachometer-alt">
                 </i>Signin
